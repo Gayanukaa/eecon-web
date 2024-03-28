@@ -2,30 +2,13 @@ import Button from "@/components/common/Button";
 import EventCard from "@/components/common/EventCard";
 import HomePageSectionOne from "@/components/page/home/HomePageSectionOne";
 import HomePageSectionThird from "@/components/page/home/HomePageSectionThird";
+import HomePageSectionZero from "@/components/page/home/HomePageSectionZero";
 
 export default function Home() {
     return (
         <main className="flex min-h-screen flex-col">
             {/* Section 00 */}
-            <div
-                className="w-full text-white p-4 pl-16 flex-col justify-center items-center h-screen "
-                style={{
-                    backgroundImage: "url(bg/bg_02.jpg)",
-                    backgroundSize: "cover", // Add this line
-                }}
-            >
-                <div className="absolute top-1/2 left-1/6  text-start">
-                    <h1 className="text-6xl font-bold">EECon 24</h1>
-                    <p className="text-base text-lg ">
-                        International Conference on Electrical Engineering 2024
-                    </p>
-                    <p className="text-base text-md italic mb-2">
-                        12<sup>th</sup> Thursday, December 2024 @ Colombo, Sri
-                        Lanka
-                    </p>
-                    <Button href="/registration">Register Now</Button>
-                </div>
-            </div>
+            <HomePageSectionZero></HomePageSectionZero>
 
             {/* Section 01 */}
             <HomePageSectionOne></HomePageSectionOne>
