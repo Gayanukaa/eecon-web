@@ -22,7 +22,7 @@ export default function ComingSoon() {
                 >
                     Official Website
                 </Link>
-                <Button>Contact Info</Button>
+                <Button href="/contact">Contact Info</Button>
             </div>
         </div>
     );
