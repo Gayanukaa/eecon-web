@@ -1,3 +1,28 @@
+// import LinkPopup from "@/components/common/LinkPopup" ;
+
+import dynamic from "next/dynamic";
+
+const DynamicModal = dynamic(() => import("@/components/common/LinkPopup"), {
+    loading: () => (
+        <div className="flex flex-col p-4 text-black bg-blue-950 justify-center items-center ">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6 animate-spin"
+            >
+                <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"
+                />
+            </svg>
+        </div>
+    ),
+});
+
 function HomePageSectionOne() {
     return (
         <div className="p-8 pt-16 bg-gray-100  ">
@@ -9,13 +34,38 @@ function HomePageSectionOne() {
                     <div className="divide-y overflow-scroll scrollbar-track-red scrollbar-thumb-red">
                         {/* Notice - 01 */}
                         <div className="p-4 pl-8 ">
+                            <h6 className="text-red-500">28th, March 2024</h6>
+                            <p className="text-black pt-3 pl-4">
+                                <span className="font-bold">
+                                    Call For Papers{" "}
+                                </span>
+                                - We invite submissions on a wide range of
+                                research topics in Electrical Engineering.{" "}
+                                <DynamicModal title="EECon-2024 - Call For Papers"></DynamicModal>
+                            </p>
+                            <p className="text-black pt-3 pl-8">
+                                - Submission starting at{" "}
+                                <span className="font-bold">
+                                    01 <sup>st</sup> May 2024
+                                </span>
+                            </p>
+                            <p className="text-black pt-3 pl-8">
+                                - Submit before{" "}
+                                <span className="font-bold">
+                                    01 <sup>st</sup> July 2024
+                                </span>
+                            </p>
+                            <div className="divide-y-0"></div>
+                        </div>
+                        {/* Notice - 02 */}
+                        <div className="p-4 pl-8 ">
                             <h6 className="text-red-500">26th, March 2024</h6>
                             <p className="text-black pt-3 pl-4">
                                 The Department of Electrical Engineering at the
                                 University of Moratuwa, Sri Lanka is thrilled to
                                 announce the launch of the official website for
                                 the 4th International Conference on Electrical
-                                Engineering (EECon2024).
+                                Engineering (EECon2024).{" "}
                             </p>
                             <div className="divide-y-0"></div>
                         </div>
