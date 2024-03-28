@@ -32,7 +32,7 @@ export default function Home() {
 
             {/* Section 02 */}
             <div className="w-full bg-red-500 flex-col justify-center items-center text-center">
-                <h2 className="font-bold text-4xl self-center pt-6">
+                <h2 className="font-bold text-white text-4xl self-center pt-6">
                     UPCOMING EVENTS
                 </h2>
                 <div className="flex flex-col md:flex-row">

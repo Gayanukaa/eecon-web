@@ -27,13 +27,13 @@ function HomePageSectionOne() {
     return (
         <div className="p-8 pt-16 bg-gray-100  ">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 ">
-                <div className="col-span-1 bg-white p-6 h-100 drop-shadow-lg  ">
+                <div className="col-span-1 bg-white p-4 sm:p-6 h-100 drop-shadow-lg  ">
                     <h2 className="text-xl text-black font-semibold mb-2 text-transform: uppercase ">
                         Notice Board
                     </h2>
                     <div className="divide-y overflow-scroll scrollbar-track-red scrollbar-thumb-red">
                         {/* Notice - 01 */}
-                        <div className="p-4 pl-8 ">
+                        <div className="p-4 sm:p-4 pl-6 ">
                             <h6 className="text-red-500">28th, March 2024</h6>
                             <p className="text-black pt-3 pl-4">
                                 <span className="font-bold">
@@ -58,7 +58,7 @@ function HomePageSectionOne() {
                             <div className="divide-y-0"></div>
                         </div>
                         {/* Notice - 02 */}
-                        <div className="p-4 pl-8 ">
+                        <div className="p-4 sm:p-4 pl-6 ">
                             <h6 className="text-red-500">26th, March 2024</h6>
                             <p className="text-black pt-3 pl-4">
                                 The Department of Electrical Engineering at the

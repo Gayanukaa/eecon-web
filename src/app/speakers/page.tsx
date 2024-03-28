@@ -19,7 +19,7 @@ export default function Speakers() {
                     </h1>
                 </div>
             </div>
-            <div className="h-80 bg-gray-100 flex justify-center items-center">
+            <div className="py-16 bg-gray-100 flex justify-center items-center">
                 <ComingSoon></ComingSoon>
             </div>
         </div>
