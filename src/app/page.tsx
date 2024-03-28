@@ -23,7 +23,7 @@ export default function Home() {
                         12<sup>th</sup> Thursday, December 2024 @ Colombo, Sri
                         Lanka
                     </p>
-                    <Button>Register Now</Button>
+                    <Button href="/registration">Register Now</Button>
                 </div>
             </div>
 

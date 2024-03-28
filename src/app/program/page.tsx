@@ -1,6 +1,4 @@
-import HeaderCard from "@/components/common/HeaderCard";
-import HeaderImageCard from "@/components/common/HeaderImageCard";
-import Image from "next/image";
+import ComingSoon from "@/components/common/ComingSoon";
 
 export default function Program() {
     return (
@@ -18,8 +16,8 @@ export default function Program() {
                     </h1>
                 </div>
             </div>
-            <div className="h-80 bg-gray-100 flex justify-center items-center">
-                <h2 className="text-5xl text-gray-700">Coming Soon...</h2>
+            <div className="py-16 bg-gray-100 flex justify-center items-center">
+                <ComingSoon></ComingSoon>
             </div>
         </div>
     );

@@ -50,7 +50,10 @@ function NavBar() {
                         toggle ? "" : "hidden"
                     } w-full md:flex md:items-center md:w-auto`}
                 >
-                    <ul className="pt-4 text-sm text-blue-950 md:flex md:justify-between md:pt-0">
+                    <ul
+                        className="pt-4 text-sm text-blue-950 md:flex md:justify-between md:pt-0"
+                        onClick={() => setToggle(false)}
+                    >
                         <li>
                             <Link
                                 className="md:p-4 py-2 block hover:text-red-500"

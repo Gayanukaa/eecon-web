@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 
 const DynamicModal = dynamic(() => import("@/components/common/LinkPopup"), {
     loading: () => (
-        <div className="flex flex-col p-4 text-black bg-blue-950 justify-center items-center ">
+        <div className="flex flex-col p-4 text-black bg-white justify-center items-center ">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

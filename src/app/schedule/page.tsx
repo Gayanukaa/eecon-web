@@ -1,3 +1,4 @@
+import ComingSoon from "@/components/common/ComingSoon";
 import HeaderCard from "@/components/common/HeaderCard";
 import HeaderImageCard from "@/components/common/HeaderImageCard";
 import Image from "next/image";
@@ -19,7 +20,7 @@ export default function Schedule() {
                 </div>
             </div>
             <div className="h-80 bg-gray-100 flex justify-center items-center">
-                <h2 className="text-5xl text-gray-700">Coming Soon...</h2>
+                <ComingSoon></ComingSoon>
             </div>
         </div>
     );
