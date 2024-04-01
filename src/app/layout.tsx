@@ -32,6 +32,7 @@ export const metadata: Metadata = {
         url: "https://eecon2024.eesoc.lk",
         type: "website",
     },
+
     icons: [{ rel: "icon", url: "/logo.png", type: "image/x-icon" }],
     description:
         "To share the knowledge to integrate state of the art technologies in different Engineering disciplines for the betterment of fields of Electrical Engineering.",
