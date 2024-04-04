@@ -4,6 +4,7 @@ import IMG_JR_LUCUS from "../../assets/persons/prof_jr_lucus.jpg";
 import IMG_J_MARS from "../../assets/persons/prof_json_mars.jpg";
 import IMG_PLACEHOLDER from "../../assets/persons/placeholder.jpg";
 import IMG_NALIN_W from "../../assets/persons/prof_nalin_wikramarachchi.jpg";
+import IMG_KASUN from "../../assets/persons/dr_kasun.jpg";
 
 import IMG_RUWANTHIKA from "../../assets/persons/dr_ruwanthika.jpg";
 import IMG_VIRAJ from "../../assets/persons/dr_viraj.jpg";
@@ -80,7 +81,7 @@ export default function Committee() {
                 <div className="basis-1/2">
                     <HeaderCard text={"Publication Co-Chair"}></HeaderCard>
                     <HeaderImageCard
-                        image={IMG_PLACEHOLDER}
+                        image={IMG_KASUN}
                         name="Dr. Kasun Prasanga, Japan"
                     ></HeaderImageCard>
                 </div>
