@@ -46,7 +46,7 @@ export default function page() {
                                 Paper Submission Deadline
                             </p>
                             <p className="text-gray-400 italic">
-                                01<sup>st</sup> July 2024
+                                01<sup> st</sup> July 2024
                             </p>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ export default function page() {
                                 Notification of Acceptance
                             </p>
                             <p className="text-gray-400 italic">
-                                15<sup>th</sup> October 2024
+                                15<sup> th</sup> October 2024
                             </p>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ export default function page() {
                                 Camera Ready Paper Submission
                             </p>
                             <p className="text-gray-400 italic">
-                                15<sup>th</sup> November 2024
+                                15<sup> th</sup> November 2024
                             </p>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ export default function page() {
                                 Registration Deadline
                             </p>
                             <p className="text-gray-400 italic">
-                                01<sup>st</sup> December 2024
+                                01<sup> st</sup> December 2024
                             </p>
                         </div>
                     </div>
@@ -106,7 +106,7 @@ export default function page() {
                                 Conference Date
                             </p>
                             <p className="text-gray-400 italic">
-                                12<sup>th</sup> December 2024
+                                12<sup> th</sup> December 2024
                             </p>
                         </div>
                     </div>

@@ -285,6 +285,102 @@ function NavBar() {
                                 </div>
                             </Menu.Items>
                         </Menu>
+                        <Menu as="li">
+                            <Menu.Button className="md:p-4 py-2 block hover:text-red-500 inline-flex w-full justify-start items-center">
+                                Past Proceedings
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    strokeWidth={1.5}
+                                    stroke="currentColor"
+                                    className="ml-1 w-3 h-3 stroke-3"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                                    />
+                                </svg>
+                            </Menu.Button>
+                            <Menu.Items className="md:absolute md:top-16 md:mt-2 w-56 md:origin-top-right divide-y divide-gray-100 md:rounded-md bg-white md:shadow-lg md:ring-1 md:ring-black/5 focus:outline-non">
+                                <div
+                                    className="p-2"
+                                    onClick={() => setToggle(false)}
+                                >
+                                    <Menu.Item>
+                                        <Link
+                                            target="blank"
+                                            className="md:p-4 py-2 block hover:text-red-500 inline-flex w-full justify-start items-center"
+                                            href="https://ieeexplore.ieee.org/xpl/conhome/7818135/proceeding
+                                            "
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                strokeWidth={1.5}
+                                                stroke="currentColor"
+                                                className="w-4 h-4 mr-2"
+                                            >
+                                                <path
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                                                />
+                                            </svg>
+                                            EECon 2016
+                                        </Link>
+                                    </Menu.Item>
+                                    <Menu.Item>
+                                        <Link
+                                            target="blank"
+                                            className="md:p-4 py-2 block hover:text-red-500 inline-flex w-full justify-start items-center"
+                                            href=" https://ieeexplore.ieee.org/xpl/conhome/8528200/proceeding"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                strokeWidth={1.5}
+                                                stroke="currentColor"
+                                                className="w-4 h-4 mr-2"
+                                            >
+                                                <path
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                                                />
+                                            </svg>
+                                            EECon 2018
+                                        </Link>
+                                    </Menu.Item>
+                                    <Menu.Item>
+                                        <Link
+                                            target="blank"
+                                            className="md:p-4 py-2 block hover:text-red-500 inline-flex w-full justify-start items-center"
+                                            href="https://ieeexplore.ieee.org/xpl/conhome/9580924/proceeding"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                strokeWidth={1.5}
+                                                stroke="currentColor"
+                                                className="w-4 h-4 mr-2"
+                                            >
+                                                <path
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                                                />
+                                            </svg>
+                                            EECon 2021
+                                        </Link>
+                                    </Menu.Item>
+                                </div>
+                            </Menu.Items>
+                        </Menu>
                         <li onClick={() => setToggle(false)}>
                             <Link
                                 className="md:p-4 py-2 block hover:text-red-500"
