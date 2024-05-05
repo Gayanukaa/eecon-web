@@ -20,7 +20,7 @@ export default function page() {
             </div>
             <div className="bg-gray-100">
                 <HeaderCard text={"Important Dates"}></HeaderCard>
-                <div className="py-2  flex flex-column justify-start items-center px-16">
+                <div className="py-2  flex flex-column justify-start items-center sm:px-16 px-8">
                     <div className="bg-white sm:w-1/2 w-full flex mt-4">
                         <div className="flex flex-row justify-center items-center p-4 text-white bg-blue-950 w-[105px] ">
                             <p>01</p>
@@ -36,7 +36,7 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                <div className="py-2  flex flex-column sm:justify-end justify-start items-center px-16">
+                <div className="py-2  flex flex-column sm:justify-end justify-start items-center sm:px-16 px-8">
                     <div className="bg-white sm:w-1/2 w-full flex mt-4">
                         <div className="flex flex-row justify-center items-center p-4 text-white bg-blue-950 w-[105px] ">
                             <p>02</p>
@@ -51,7 +51,7 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                <div className="py-2  flex flex-column justify-start items-center px-16">
+                <div className="py-2  flex flex-column justify-start items-center sm:px-16 px-8">
                     <div className="bg-white sm:w-1/2 w-full flex mt-4">
                         <div className="flex flex-row justify-center items-center p-4 text-white bg-blue-950 w-[105px] ">
                             <p>03</p>
@@ -66,7 +66,7 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                <div className="py-2  flex flex-column sm:justify-end justify-start items-center px-16">
+                <div className="py-2  flex flex-column sm:justify-end justify-start items-center sm:px-16 px-8">
                     <div className="bg-white sm:w-1/2 w-full flex mt-4">
                         <div className="flex flex-row justify-center items-center p-4 text-white bg-blue-950 w-[105px] ">
                             <p>04</p>
@@ -81,7 +81,7 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                <div className="py-2  flex flex-column justify-start items-center px-16">
+                <div className="py-2  flex flex-column justify-start items-center sm:px-16 px-8">
                     <div className="bg-white sm:w-1/2 w-full flex mt-4">
                         <div className="flex flex-row justify-center items-center p-4 text-white bg-blue-950 w-[105px] ">
                             <p>05</p>
@@ -96,7 +96,7 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                <div className="py-2  flex flex-column sm:justify-end justify-start items-center px-16">
+                <div className="py-2  flex flex-column sm:justify-end justify-start items-center sm:px-16 px-8">
                     <div className="bg-white sm:w-1/2 w-full flex mt-4">
                         <div className="flex flex-row justify-center items-center p-4 text-white bg-blue-950 w-[105px] ">
                             <p>06</p>

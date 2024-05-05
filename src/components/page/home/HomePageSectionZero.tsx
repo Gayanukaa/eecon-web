@@ -27,7 +27,7 @@ export default function HomePageSectionZero() {
                 <p className="text-base text-md italic mb-2">
                     12<sup>th</sup> Thursday, December 2024 @ Colombo, Sri Lanka
                 </p>
-                <Button href="/registration">Register Now</Button>
+                <Button href="/author-instructions">Register Now</Button>
             </div>
         </div>
     );

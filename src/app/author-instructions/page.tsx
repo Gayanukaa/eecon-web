@@ -23,11 +23,11 @@ export default function Registration() {
             {/* <div className="py-16 bg-gray-100 flex justify-center items-center"> */}
             {/* <ComingSoon></ComingSoon> */}
             <HeaderCard text={"EECon Paper Submissions"}></HeaderCard>
-            <h2 className="font-semibold text-xl ml-12 mt-4 uppercase">
+            <h2 className="font-semibold text-xl ml-6 sm:ml-12 mt-4 uppercase">
                 General Instructions
             </h2>
 
-            <div className="pl-24 w-4/5 my-4 py-2">
+            <div className="pl-12 sm:pl-24 sm:w-4/5 w-full my-4 py-2 pr-4">
                 <ul className="list-disc leading-loose">
                     <li>All papers should be written in English.</li>
                     <li>
@@ -69,11 +69,11 @@ export default function Registration() {
                     </li>
                 </ul>
             </div>
-            <h2 className="font-semibold text-xl ml-12 mt-4 uppercase">
+            <h2 className="font-semibold text-xl ml-6 sm:ml-12 mt-4 uppercase">
                 Use the following guidelines while submitting full papers
             </h2>
 
-            <div className="pl-24 w-4/5 my-4 py-2">
+            <div className="pl-12 sm:pl-24 sm:w-4/5 w-full my-4 py-2 pr-4">
                 <ul className="list-disc leading-loose">
                     <li>
                         All paper submissions are through CMT.{" "}
@@ -126,10 +126,10 @@ export default function Registration() {
                     </li>
                 </ul>
             </div>
-            <h2 className="font-semibold text-xl ml-12 mt-4 uppercase">
+            <h2 className="font-semibold text-xl ml-6 sm:ml-12 mt-4 uppercase">
                 Important Notes
             </h2>
-            <div className="pl-24 w-4/5 my-4 py-2">
+            <div className="pl-12 sm:pl-24 sm:w-4/5 w-full my-4 py-2 pr-4">
                 <ul className="list-disc leading-loose">
                     <li>
                         Accepted, registered, and presented papers will be IEEE
@@ -141,7 +141,7 @@ export default function Registration() {
                         In order for the accepted paper to be submitted for
                         inclusion into the IEEE Xplore® Digital Library, all of
                         the following three requirements must be satisfied:
-                        <ol className=" pl-16 list-decimal">
+                        <ol className=" pl-10 sm:pl-16 list-decimal">
                             <li>
                                 Appropriate publication materials (final paper
                                 and transfer of copyright to IEEE must be
