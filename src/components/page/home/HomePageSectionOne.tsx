@@ -260,8 +260,7 @@ function HomePageSectionOne() {
                                         clipRule="evenodd"
                                     />
                                 </svg>
-                                Electronics, Biomedical Engineering, Computer
-                                Vision and Signal Processing
+                                Artificial Intelligence applications
                             </li>
                         </ul>
                     </div>

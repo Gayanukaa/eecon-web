@@ -18,6 +18,15 @@ import IMG_MUDITH from "../../assets/persons/mr_mudith.jpg";
 import IMG_ABEYGUNAWARDANE from "../../assets/persons/dr_abeygunawardane.jpg";
 import IMG_LOGEESHAN from "../../assets/persons/dr_logeeshan.jpg";
 
+import IMG_CHAPA from "../../assets/persons/dr_chapa.jpg";
+import IMG_PRASAD from "../../assets/persons/dr_prasad.jpg";
+import IMG_RANJITH from "../../assets/persons/dr_ranjith.jpg";
+import IMG_DINITHI from "../../assets/persons/ms_dinithi.jpg";
+import IMG_ASANKA from "../../assets/persons/prof_asanka.jpg";
+import IMG_ATHULA from "../../assets/persons/prof_athula.jpg";
+import IMG_CHANDIMA from "../../assets/persons/prof_chandima.jpg";
+import IMG_KARUNADASA from "../../assets/persons/prof_karunadasa.jpg";
+
 export default function Committee() {
     return (
         <div className="w-full bg-white text-black bg-gray-100">
@@ -87,7 +96,7 @@ export default function Committee() {
                 </div>
             </div>
             <HeaderCard text={"Publicity Chairs"}></HeaderCard>
-            <div className="flex flex-col sm:flex-row">
+            <div className="flex flex-col sm:flex-row lg:flex hidden">
                 <HeaderImageCard
                     image={IMG_UPULI}
                     name="Dr. Upuli Jayathunga, Australia"
@@ -96,6 +105,22 @@ export default function Committee() {
                     image={IMG_HARSHA}
                     name="Dr. A.M.H.S. Abeykoon, USA"
                 ></HeaderImageCard>
+                <HeaderImageCard
+                    image={IMG_ABEYGUNAWARDANE}
+                    name="Dr. S.K. Abeygunawardane, USA"
+                ></HeaderImageCard>
+            </div>
+            <div className="flex flex-col sm:flex-row lg:hidden flex">
+                <HeaderImageCard
+                    image={IMG_UPULI}
+                    name="Dr. Upuli Jayathunga, Australia"
+                ></HeaderImageCard>
+                <HeaderImageCard
+                    image={IMG_HARSHA}
+                    name="Dr. A.M.H.S. Abeykoon, USA"
+                ></HeaderImageCard>
+            </div>
+            <div className="lg:hidden flex">
                 <HeaderImageCard
                     image={IMG_ABEYGUNAWARDANE}
                     name="Dr. S.K. Abeygunawardane, USA"
@@ -132,40 +157,122 @@ export default function Committee() {
                 name="Prof. L.N.W. Arachchige"
             ></HeaderImageCard>
             <HeaderCard text={"Track Chairs"}></HeaderCard>
-            <div className="flex flex-col w-full justify-center items-center ">
-                <div className="bg-white w-3/4 sm:w-1/2 flex mt-4  shadow-lg">
-                    <div className="flex flex-col p-4 text-white bg-blue-950 justify-center items-center ">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth={1.5}
-                            stroke="currentColor"
-                            className="w-6 h-6 animate-spin"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"
-                            />
-                        </svg>
-                    </div>
-                    <div className="flex-1 p-4 text-black text-left">
-                        <p className="font-bold text-medium">
-                            {"Coming Soon..."}
-                        </p>
 
-                        <p className="text-gray-400 italic">
-                            {"The Track Chairs will be updated soon.."}
-                        </p>
-                    </div>
+            <div className="bg-white w-max flex mt-4 ml-16 ">
+                <div className="flex-none p-1 text-white bg-blue-950 w-[100px]"></div>
+                <div className="flex-1 p-1 text-black text-left border-b-2 border-blue-950">
+                    <p className=" text-medium text-lg">{"Power Systems"}</p>
                 </div>
             </div>
+            <div className="flex flex-col sm:flex-row sm:ml-24 ml-4">
+                <div className="basis-1/2">
+                    <HeaderImageCard
+                        image={IMG_PRASAD}
+                        name="Dr. W.D. Prasad"
+                        subtitle="University of Moratuwa, Sri Lanka"
+                    ></HeaderImageCard>
+                </div>
+                <div className="basis-1/2">
+                    <HeaderImageCard
+                        image={IMG_ATHULA}
+                        name="Prof. Athula Rajapakse"
+                        subtitle="University of Manitoba, Canada"
+                    ></HeaderImageCard>
+                </div>
+            </div>
+
+            <div className="bg-white sm:w-max w-min flex mt-4 ml-16 ">
+                <div className="flex-none p-1 text-white bg-blue-950 w-[100px]"></div>
+                <div className="flex-1 p-1 text-black text-left border-b-2 border-blue-950">
+                    <p className=" text-medium text-lg">
+                        {"Power Electronics and Applications"}
+                    </p>
+                </div>
+            </div>
+            <div className="flex flex-col sm:flex-row sm:ml-24 ml-4">
+                <div className="lg:basis-1/3 basis-1/2">
+                    <HeaderImageCard
+                        image={IMG_CHANDIMA}
+                        name="Prof. D. P. Chandima"
+                        subtitle="University of Moratuwa, Sri Lanka"
+                    ></HeaderImageCard>
+                </div>
+                <div className="lg:basis-1/3 basis-1/2">
+                    <HeaderImageCard
+                        image={IMG_KARUNADASA}
+                        name="Prof. J. P. Karunadasa"
+                        subtitle="University of Moratuwa, Sri Lanka"
+                    ></HeaderImageCard>
+                </div>
+                <div className="lg:basis-1/3 basis-1/2 lg:flex hidden">
+                    <HeaderImageCard
+                        image={IMG_RANJITH}
+                        name="Dr. Ranjith Liyanapathirana"
+                        subtitle="Western Sydney University, Australia"
+                    ></HeaderImageCard>
+                </div>
+            </div>
+            <div className="flex flex-col sm:flex-row sm:ml-24 ml-4 lg:hidden flex">
+                <HeaderImageCard
+                    image={IMG_RANJITH}
+                    name="Dr. Ranjith Liyanapathirana"
+                    subtitle="Western Sydney University, Australia"
+                ></HeaderImageCard>
+            </div>
+            <div className="bg-white sm:w-max w-min flex mt-4 ml-16 ">
+                <div className="flex-none p-1 text-white bg-blue-950 w-[100px]"></div>
+                <div className="flex-1 p-1 text-black text-left border-b-2 border-blue-950">
+                    <p className=" text-medium text-lg">
+                        {"Energy Systems and Smart Technologies"}
+                    </p>
+                </div>
+            </div>
+            <div className="flex flex-col sm:flex-row sm:ml-24 ml-4">
+                <div className="basis-1/2">
+                    <HeaderImageCard
+                        image={IMG_ASANKA}
+                        name="Prof. W. D. Asanka S. Rodrigo"
+                        subtitle="University of Moratuwa, Sri Lanka"
+                    ></HeaderImageCard>
+                </div>
+            </div>
+
+            <div className="bg-white sm:w-max w-min flex mt-4 ml-16 ">
+                <div className="flex-none p-1 text-white bg-blue-950 w-[100px]"></div>
+                <div className="flex-1 p-1 text-black text-left border-b-2 border-blue-950">
+                    <p className=" text-medium text-lg">
+                        {"Robotics and Intelligent Systems"}
+                    </p>
+                </div>
+            </div>
+            <div className="flex flex-col sm:flex-row sm:ml-24 ml-4">
+                <div className="basis-1/2">
+                    <HeaderImageCard
+                        image={IMG_HARSHA}
+                        name="Prof. A. M. H. S. Abeykoon"
+                        subtitle="Plymouth State University, USA"
+                    ></HeaderImageCard>
+                </div>
+                <div className="basis-1/2">
+                    <HeaderImageCard
+                        image={IMG_CHAPA}
+                        name="Dr. Chapa Sirithunge"
+                        subtitle="Cambridge University, UK"
+                    ></HeaderImageCard>
+                </div>
+            </div>
+
             <HeaderCard text={"Conference Secretary"}></HeaderCard>
-            <HeaderImageCard
-                image={IMG_MUDITH}
-                name="Mr. W. M. N. Witharana"
-            ></HeaderImageCard>
+            <div className="flex flex-col sm:flex-row">
+                <HeaderImageCard
+                    image={IMG_MUDITH}
+                    name="Mr. W. M. N. Witharana"
+                ></HeaderImageCard>
+                <HeaderImageCard
+                    image={IMG_DINITHI}
+                    name="Ms. Dinithi Senarath"
+                ></HeaderImageCard>
+            </div>
         </div>
     );
 }
