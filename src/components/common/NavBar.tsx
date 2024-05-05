@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import Logo from "@/assets/logo.png";
+import { Menu } from "@headlessui/react";
 
 function NavBar() {
     const [toggle, setToggle] = useState(false);
@@ -51,9 +52,9 @@ function NavBar() {
                 >
                     <ul
                         className="pt-4 text-sm text-blue-950 md:flex md:justify-between md:pt-0"
-                        onClick={() => setToggle(false)}
+                        // onClick={() => setToggle(false)}
                     >
-                        <li>
+                        <li onClick={() => setToggle(false)}>
                             <Link
                                 className="md:p-4 py-2 block hover:text-red-500"
                                 href="/"
@@ -61,7 +62,79 @@ function NavBar() {
                                 Home
                             </Link>
                         </li>
-                        <li>
+                        <Menu as="li">
+                            <Menu.Button className="md:p-4 py-2 block hover:text-red-500 inline-flex w-full justify-start items-center">
+                                For Attendees
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    strokeWidth={1.5}
+                                    stroke="currentColor"
+                                    className="ml-1 w-3 h-3 stroke-3"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                                    />
+                                </svg>
+                            </Menu.Button>
+                            <Menu.Items className="md:absolute md:top-16 md:mt-2 w-56 md:origin-top-right divide-y divide-gray-100 md:rounded-md bg-white md:shadow-lg md:ring-1 md:ring-black/5 focus:outline-non">
+                                <div
+                                    className="p-2"
+                                    onClick={() => setToggle(false)}
+                                >
+                                    <Menu.Item>
+                                        <Link
+                                            className="md:p-4 py-2 block hover:text-red-500 inline-flex w-full justify-start items-center"
+                                            href="/program"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                strokeWidth={1.5}
+                                                stroke="currentColor"
+                                                className="w-4 h-4 mr-2"
+                                            >
+                                                <path
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                                                />
+                                            </svg>
+                                            Program
+                                        </Link>
+                                    </Menu.Item>
+
+                                    <Menu.Item>
+                                        <Link
+                                            className="md:p-4 py-2 block hover:text-red-500 inline-flex w-full justify-start items-center"
+                                            href="/travel-information"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                strokeWidth={1.5}
+                                                stroke="currentColor"
+                                                className="w-4 h-4 mr-2"
+                                            >
+                                                <path
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                                                />
+                                            </svg>
+                                            Travel Information
+                                        </Link>
+                                    </Menu.Item>
+                                </div>
+                            </Menu.Items>
+                        </Menu>
+
+                        <li onClick={() => setToggle(false)}>
                             <Link
                                 className="md:p-4 py-2 block hover:text-red-500"
                                 href="/committee"
@@ -69,39 +142,150 @@ function NavBar() {
                                 Committee
                             </Link>
                         </li>
-                        <li>
-                            <Link
-                                className="md:p-4 py-2 block hover:text-red-500"
-                                href="speakers"
-                            >
-                                Speakers
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                className="md:p-4 py-2 block hover:text-red-500"
-                                href="/program"
-                            >
-                                Program
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                className="md:p-4 py-2 block hover:text-red-500"
-                                href="/registration"
-                            >
-                                Registration
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                className="md:p-4 py-2 block hover:text-red-500"
-                                href="/schedule"
-                            >
-                                Schedule
-                            </Link>
-                        </li>
-                        <li>
+
+                        <Menu as="li">
+                            <Menu.Button className="md:p-4 py-2 block hover:text-red-500 inline-flex w-full justify-start items-center">
+                                For Authors
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    strokeWidth={1.5}
+                                    stroke="currentColor"
+                                    className="ml-1 w-3 h-3 stroke-3"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                                    />
+                                </svg>
+                            </Menu.Button>
+                            <Menu.Items className="md:absolute md:top-16 md:mt-2 w-56 md:origin-top-right divide-y divide-gray-100 md:rounded-md bg-white md:shadow-lg md:ring-1 md:ring-black/5 focus:outline-non">
+                                <div
+                                    className="p-2"
+                                    onClick={() => setToggle(false)}
+                                >
+                                    <Menu.Item>
+                                        <Link
+                                            className="md:p-4 py-2 block hover:text-red-500 inline-flex w-full justify-start items-center"
+                                            href="/important-dates"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                strokeWidth={1.5}
+                                                stroke="currentColor"
+                                                className="w-4 h-4 mr-2"
+                                            >
+                                                <path
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                                                />
+                                            </svg>
+                                            Important Dates
+                                        </Link>
+                                    </Menu.Item>
+
+                                    <Menu.Item>
+                                        <Link
+                                            className="md:p-4 py-2 block hover:text-red-500 inline-flex w-full justify-start items-center"
+                                            href="/author-instructions"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                strokeWidth={1.5}
+                                                stroke="currentColor"
+                                                className="w-4 h-4 mr-2"
+                                            >
+                                                <path
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                                                />
+                                            </svg>
+                                            Author Instructions
+                                        </Link>
+                                    </Menu.Item>
+                                </div>
+                            </Menu.Items>
+                        </Menu>
+                        <Menu as="li">
+                            <Menu.Button className="md:p-4 py-2 block hover:text-red-500 inline-flex w-full justify-start items-center">
+                                Explore Programs
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    strokeWidth={1.5}
+                                    stroke="currentColor"
+                                    className="ml-1 w-3 h-3 stroke-3"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                                    />
+                                </svg>
+                            </Menu.Button>
+                            <Menu.Items className="md:absolute md:top-16 md:mt-2 w-56 md:origin-top-right divide-y divide-gray-100 md:rounded-md bg-white md:shadow-lg md:ring-1 md:ring-black/5 focus:outline-non">
+                                <div
+                                    className="p-2"
+                                    onClick={() => setToggle(false)}
+                                >
+                                    <Menu.Item>
+                                        <Link
+                                            className="md:p-4 py-2 block hover:text-red-500 inline-flex w-full justify-start items-center"
+                                            href="/speakers"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                strokeWidth={1.5}
+                                                stroke="currentColor"
+                                                className="w-4 h-4 mr-2"
+                                            >
+                                                <path
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                                                />
+                                            </svg>
+                                            Keynotes
+                                        </Link>
+                                    </Menu.Item>
+
+                                    <Menu.Item>
+                                        <Link
+                                            className="md:p-4 py-2 block hover:text-red-500 inline-flex w-full justify-start items-center"
+                                            href="/special-sessions"
+                                        >
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                strokeWidth={1.5}
+                                                stroke="currentColor"
+                                                className="w-4 h-4 mr-2"
+                                            >
+                                                <path
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                                                />
+                                            </svg>
+                                            Special Sessions
+                                        </Link>
+                                    </Menu.Item>
+                                </div>
+                            </Menu.Items>
+                        </Menu>
+                        <li onClick={() => setToggle(false)}>
                             <Link
                                 className="md:p-4 py-2 block hover:text-red-500"
                                 href="/contact"

@@ -4,9 +4,11 @@ import { StaticImport } from "next/dist/shared/lib/get-img-props";
 export default function HeaderImageCard({
     image,
     name,
+    subtitle,
 }: {
     image: StaticImport;
     name: string;
+    subtitle?: string;
 }) {
     return (
         <div className="w-full flex flex-row p-8 pl-16">
@@ -20,6 +22,7 @@ export default function HeaderImageCard({
                 </div>
                 <div className="p-2">
                     <p className="text-black">{name}</p>
+                    <p className="text-sm text-gray-400 italic">{subtitle}</p>
                 </div>
             </div>
         </div>

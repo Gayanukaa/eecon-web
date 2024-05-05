@@ -14,7 +14,10 @@ export default function Home() {
             <HomePageSectionOne></HomePageSectionOne>
 
             {/* Section 02 */}
-            <div className="w-full bg-red-500 flex-col justify-center items-center text-center">
+            <div
+                className="w-full bg-red-500 flex-col justify-center items-center text-center"
+                id="upcoming-events"
+            >
                 <h2 className="font-bold text-white text-4xl self-center pt-6">
                     UPCOMING EVENTS
                 </h2>
@@ -53,6 +56,12 @@ export default function Home() {
                             date={"15"}
                             month={"November"}
                             subtitle={"Camera ready paper submission date."}
+                        ></EventCard>
+                        <EventCard
+                            title={"CONFERENCE"}
+                            date={"12"}
+                            month={"December"}
+                            subtitle={"The conference Date."}
                         ></EventCard>
                     </div>
                 </div>

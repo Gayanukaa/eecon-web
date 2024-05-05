@@ -3,7 +3,7 @@ import HeaderCard from "@/components/common/HeaderCard";
 import HeaderImageCard from "@/components/common/HeaderImageCard";
 import Image from "next/image";
 
-export default function Schedule() {
+export default function SpecialSessions() {
     return (
         <div className="w-full bg-white text-black bg-gray-100">
             <div
@@ -15,7 +15,7 @@ export default function Schedule() {
             >
                 <div className="pt-36 left-1/6  text-start">
                     <h1 className="text-4xl sm:text-6xl font-bold text-transform: uppercase">
-                        Schedule
+                        Special Sessions
                     </h1>
                 </div>
             </div>

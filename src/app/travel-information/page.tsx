@@ -3,19 +3,19 @@ import HeaderCard from "@/components/common/HeaderCard";
 import HeaderImageCard from "@/components/common/HeaderImageCard";
 import Image from "next/image";
 
-export default function Registration() {
+export default function TravelInformation() {
     return (
         <div className="w-full bg-white text-black bg-gray-100">
             <div
                 className="w-full text-white p-4 pl-16 flex-col justify-center items-center h-72 "
                 style={{
-                    backgroundImage: "url(bg_02.jpg)",
+                    backgroundImage: "url(bg/bg_h_03.jpg)",
                     backgroundSize: "cover", // Add this line
                 }}
             >
                 <div className="pt-36 left-1/6  text-start">
                     <h1 className="text-4xl sm:text-6xl font-bold text-transform: uppercase">
-                        Registration
+                        Travel Information
                     </h1>
                 </div>
             </div>

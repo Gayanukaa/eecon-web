@@ -3,6 +3,10 @@ import HeaderCard from "@/components/common/HeaderCard";
 import HeaderImageCard from "@/components/common/HeaderImageCard";
 import Image from "next/image";
 
+import IMG_PECHT from "@/assets/speakers/prof_pecht.jpg";
+import IMG_JSON from "@/assets/speakers/prof_json_mars.webp";
+import ComingSoonTile from "@/components/common/ComingSoonTile";
+
 export default function Speakers() {
     return (
         <div className="w-full bg-white text-black bg-gray-100">
@@ -19,8 +23,23 @@ export default function Speakers() {
                     </h1>
                 </div>
             </div>
-            <div className="py-16 bg-gray-100 flex justify-center items-center">
+            {/* <div className="py-16 bg-gray-100 flex justify-center items-center">
                 <ComingSoon></ComingSoon>
+            </div> */}
+            <HeaderCard text={"Keynote Speakers"}></HeaderCard>
+            <div className="flex md:flex-row flex-col">
+                <div className="basis-1/2 p-8 flex flex-col  justify-center items-center">
+                    <div className="bg-gray-200 w-max p-3 rounded">
+                        <Image src={IMG_PECHT} alt="Keynote Speaker "></Image>
+                    </div>
+                    <ComingSoonTile></ComingSoonTile>
+                </div>
+                <div className=" basis-1/2 p-8 flex flex-col justify-center items-center">
+                    <div className="bg-gray-200 w-max p-3 rounded">
+                        <Image src={IMG_JSON} alt="Keynote Speaker "></Image>
+                    </div>
+                    <ComingSoonTile></ComingSoonTile>
+                </div>
             </div>
         </div>
     );
