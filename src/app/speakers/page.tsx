@@ -14,7 +14,7 @@ export default function Speakers() {
                 className="w-full text-white p-4 pl-16 flex-col justify-center items-center h-72 "
                 style={{
                     backgroundImage: "url(bg/bg_h_02.jpg)",
-                    backgroundSize: "cover", // Add this line
+                    backgroundSize: "cover",
                 }}
             >
                 <div className="pt-36 left-1/6  text-start">

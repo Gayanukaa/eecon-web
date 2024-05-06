@@ -1,3 +1,4 @@
+import Button from "@/components/common/Button";
 import ComingSoon from "@/components/common/ComingSoon";
 import HeaderCard from "@/components/common/HeaderCard";
 import HeaderImageCard from "@/components/common/HeaderImageCard";
@@ -11,7 +12,7 @@ export default function Registration() {
                 className="w-full text-white p-4 pl-16 flex-col justify-center items-center h-72 "
                 style={{
                     backgroundImage: "url(bg_02.jpg)",
-                    backgroundSize: "cover", // Add this line
+                    backgroundSize: "cover",
                 }}
             >
                 <div className="pt-36 left-1/6  text-start">
@@ -68,6 +69,9 @@ export default function Registration() {
                         screening system to verify the originality of papers.
                     </li>
                 </ul>
+            </div>
+            <div className="flex justify-center align-center p-2 sm:w-1/3 w-full">
+                <Button href="/paper-submission">Submit A Paper</Button>
             </div>
             <h2 className="font-semibold text-xl ml-6 sm:ml-12 mt-4 uppercase">
                 Use the following guidelines while submitting full papers

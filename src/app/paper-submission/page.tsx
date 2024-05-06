@@ -9,13 +9,13 @@ export default function SpecialSessions() {
             <div
                 className="w-full text-white p-4 pl-16 flex-col justify-center items-center h-72 "
                 style={{
-                    backgroundImage: "url(bg/bg_h_03.jpg)",
+                    backgroundImage: "url(bg/bg_h_02.jpg)",
                     backgroundSize: "cover",
                 }}
             >
                 <div className="pt-36 left-1/6  text-start">
                     <h1 className="text-4xl sm:text-6xl font-bold text-transform: uppercase">
-                        Special Sessions
+                        Paper Submission
                     </h1>
                 </div>
             </div>
