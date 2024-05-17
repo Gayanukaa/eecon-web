@@ -1,7 +1,8 @@
 import EESOCLOGO from "../../../assets/logos/eesoc_logo.png";
-import UOMLOGO from "../../../assets/logos/uom_logo.png";
+import UOMLOGO from "../../../assets/logos/uom_logo.jpg";
 import IESLOGO from "../../../assets/logos/ies_logo.png";
 import PESLOGO from "../../../assets/logos/pes_logo.png";
+import IEEELOGO from "../../../assets/logos/ieee_logo.webp";
 import Image from "next/image";
 
 export default function HomePageSectionThird() {
@@ -52,15 +53,14 @@ export default function HomePageSectionThird() {
                         Technical Co-Sponsors
                     </h5>
                     <p className="text-sm sm:text-base ml-8 sm:ml-16 ">
-                        IEEE Industrial Electronics Society <br />
-                        Sri Lanka
+                        IEEE Sri Lanka Section
                     </p>
                 </div>
                 <div className="flex  ml-16  basis-1/2 justify-end items-center float-right ">
                     <Image
                         // style={{ width: 75, height: 75 }}
-                        src={IESLOGO}
-                        alt=" IEEE Industrial Electronics Society, Sri Lanka"
+                        src={IEEELOGO}
+                        alt="IEEE Sri Lanka"
                         className="w-16"
                     ></Image>
                 </div>
@@ -78,6 +78,22 @@ export default function HomePageSectionThird() {
                         // style={{ width: 75, height: 75 }}
                         src={PESLOGO}
                         alt="IEEE Power And Energy Society, Sri Lanka"
+                        className="w-16"
+                    ></Image>
+                </div>
+            </div>
+            <div className="flex  flex-row w-full sm:w-3/4 w-max-1/2 pl-8 mt-4 text-left justify-content: space-between">
+                <div className="basis-1/2">
+                    <p className="text-sm sm:text-base ml-8 sm:ml-16 ">
+                        IEEE Industrial Electronics Society <br />
+                        Sri Lanka
+                    </p>
+                </div>
+                <div className="flex  ml-16  basis-1/2 justify-end items-center float-right ">
+                    <Image
+                        // style={{ width: 75, height: 75 }}
+                        src={IESLOGO}
+                        alt=" IEEE Industrial Electronics Society, Sri Lanka"
                         className="w-16"
                     ></Image>
                 </div>
