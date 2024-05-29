@@ -53,9 +53,9 @@ export default function Workshops() {
                 <ul className="list-disc pl-8 leading-loose">
                     <li>Title of the Workshop.</li>
                     <li>
-                        Presenter(s) (Organizers' names, affiliations, and email
-                        addresses with one person identified as the primary
-                        contact person).
+                        Presenter(s) (Organizers&apos; names, affiliations, and
+                        email addresses with one person identified as the
+                        primary contact person).
                     </li>
                     <li>
                         Description of the workshop in terms of abstract,
