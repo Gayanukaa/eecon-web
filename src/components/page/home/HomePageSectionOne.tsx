@@ -36,6 +36,26 @@ function HomePageSectionOne() {
                     <div className="divide-y overflow-scroll scrollbar-track-red scrollbar-thumb-red">
                         {/* Notice - 01 */}
                         <div className="p-4 sm:p-4 pl-6 ">
+                            <h6 className="text-red-500">29th, May 2024</h6>
+                            <p className="text-black pt-3 pl-4">
+                                As EECon 2024 organizing committee, we invite{" "}
+                                <b>proposals for workshops</b> with the aim of
+                                exposing our participants to expert knowledge
+                                and the opportunity to discuss novel trends and
+                                scientific contributions in all fields of
+                                electrical engineering.{" "}
+                                <Link
+                                    className="text-red-600"
+                                    href={"/workshops"}
+                                >
+                                    Learn More!
+                                </Link>
+                            </p>
+                            <div className="divide-y-0"></div>
+                        </div>
+
+                        {/* Notice - 02 */}
+                        <div className="p-4 sm:p-4 pl-6 ">
                             <h6 className="text-red-500">28th, March 2024</h6>
                             <p className="text-black pt-3 pl-4">
                                 <span className="font-bold">
@@ -59,7 +79,8 @@ function HomePageSectionOne() {
                             </p>
                             <div className="divide-y-0"></div>
                         </div>
-                        {/* Notice - 02 */}
+
+                        {/* Notice - 03 */}
                         <div className="p-4 sm:p-4 pl-6 ">
                             <h6 className="text-red-500">26th, March 2024</h6>
                             <p className="text-black pt-3 pl-4">
@@ -68,29 +89,6 @@ function HomePageSectionOne() {
                                 announce the launch of the official website for
                                 the 4th International Conference on Electrical
                                 Engineering (EECon2024).{" "}
-                            </p>
-                            <div className="divide-y-0"></div>
-                        </div>
-
-                        {/* Notice - 03 */}
-                        <div className="p-4 sm:p-4 pl-6 ">
-                            <h6 className="text-red-500">29th, May 2024</h6>
-                            <p className="text-black pt-3 pl-4">
-                                As EECon 2024 organizing committee, we invite
-                                proposals for workshops with the aim of exposing
-                                our participants to expert knowledge and the
-                                opportunity to discuss novel trends and
-                                scientific contributions in all fields of
-                                electrical engineering. We strongly encourage
-                                the workshops to be highly interactive and in
-                                high demand. It is preferred to have foreign
-                                collaborators.{" "}
-                                <Link
-                                    className="text-red-600"
-                                    href={"/workshops"}
-                                >
-                                    Learn More!
-                                </Link>
                             </p>
                             <div className="divide-y-0"></div>
                         </div>
