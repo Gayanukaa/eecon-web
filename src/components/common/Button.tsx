@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 
-const Button = ({ children, href, ...props }: any) => {
+const Button = ({ children, href, action, ...props }: any) => {
     const router = useRouter();
 
     return (
@@ -10,7 +10,7 @@ const Button = ({ children, href, ...props }: any) => {
             type="button"
             className={`bg-red-500 text-white font-medium py-2 px-4 hover:bg-red-700 ${props.className}`}
             {...props}
-            onClick={() => router.push(href || "/")}
+            onClick={() => (action ? action() : router.push(href || "/"))}
         >
             {children}
         </button>

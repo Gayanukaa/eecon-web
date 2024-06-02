@@ -1,5 +1,6 @@
 import Button from "@/components/common/Button";
 import ComingSoon from "@/components/common/ComingSoon";
+import FlayerPopup from "@/components/common/FlayerPopup";
 import HeaderCard from "@/components/common/HeaderCard";
 import HeaderImageCard from "@/components/common/HeaderImageCard";
 import Image from "next/image";
@@ -37,8 +38,9 @@ export default function Workshops() {
                     highly interactive and in high demand. It is preferred to
                     have foreign collaborators.
                 </p>
-                <div className="flex justify-center align-center p-2 sm:w-1/3 w-full pointer-events-none opacity-50">
-                    <Button href="/workshops-flyer">Workshops Flyer</Button>
+                <div className="flex justify-left align-center  w-full ">
+                    {/* <Button href="/workshops-flyer">Workshops Flyer</Button> */}
+                    <FlayerPopup content="/flyers/flyer-ws.jpg"></FlayerPopup>
                 </div>
             </div>
 

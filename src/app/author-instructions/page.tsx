@@ -71,7 +71,9 @@ export default function Registration() {
                 </ul>
             </div>
             <div className="flex justify-center align-center p-2 sm:w-1/3 w-full">
-                <Button href="/paper-submission">Submit A Paper</Button>
+                <Button href="https://cmt3.research.microsoft.com/EECon2024/Submission/Index">
+                    Submit A Paper
+                </Button>
             </div>
             <h2 className="font-semibold text-xl ml-6 sm:ml-12 mt-4 uppercase">
                 Use the following guidelines while submitting full papers
