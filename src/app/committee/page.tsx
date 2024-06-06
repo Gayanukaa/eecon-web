@@ -17,6 +17,8 @@ import IMG_LINDULA from "../../assets/persons/prof_lindula.jpg";
 import IMG_MUDITH from "../../assets/persons/mr_mudith.jpg";
 import IMG_ABEYGUNAWARDANE from "../../assets/persons/dr_abeygunawardane.jpg";
 import IMG_LOGEESHAN from "../../assets/persons/dr_logeeshan.jpg";
+import IMG_AKILA from "../../assets/persons/dr_akila_wijethunga.jpg";
+import IMG_BUDDHIKA from "../../assets/persons/prof_buddika_jayasekara.jpg";
 
 import IMG_CHAPA from "../../assets/persons/dr_chapa.jpg";
 import IMG_PRASAD from "../../assets/persons/dr_prasad.jpg";
@@ -235,6 +237,13 @@ export default function Committee() {
                         subtitle="University of Moratuwa, Sri Lanka"
                     ></HeaderImageCard>
                 </div>
+                <div className="basis-1/2">
+                    <HeaderImageCard
+                        image={IMG_AKILA}
+                        name="Dr. Akila Wijethunge"
+                        subtitle="University of Sri Jayawardhanapura, Sri Lanka"
+                    ></HeaderImageCard>
+                </div>
             </div>
 
             <div className="bg-white sm:w-max w-min flex mt-4 ml-16 ">
@@ -246,20 +255,34 @@ export default function Committee() {
                 </div>
             </div>
             <div className="flex flex-col sm:flex-row sm:ml-24 ml-4">
-                <div className="basis-1/2">
+                <div className="lg:basis-1/3 basis-1/2">
+                    <HeaderImageCard
+                        image={IMG_BUDDHIKA}
+                        name="Prof. Buddhika Jayasekara"
+                        subtitle="University of Moratuwa, Sri Lanka"
+                    ></HeaderImageCard>
+                </div>
+                <div className="lg:basis-1/3 basis-1/2">
                     <HeaderImageCard
                         image={IMG_HARSHA}
                         name="Prof. A. M. H. S. Abeykoon"
                         subtitle="Plymouth State University, USA"
                     ></HeaderImageCard>
                 </div>
-                <div className="basis-1/2">
+                <div className="lg:basis-1/3 basis-1/2 lg:flex hidden">
                     <HeaderImageCard
                         image={IMG_CHAPA}
                         name="Dr. Chapa Sirithunge"
                         subtitle="Cambridge University, UK"
                     ></HeaderImageCard>
                 </div>
+            </div>
+            <div className="flex flex-col sm:flex-row sm:ml-24 ml-4 lg:hidden flex">
+                <HeaderImageCard
+                    image={IMG_CHAPA}
+                    name="Dr. Chapa Sirithunge"
+                    subtitle="Cambridge University, UK"
+                ></HeaderImageCard>
             </div>
 
             <HeaderCard text={"Conference Secretary"}></HeaderCard>
