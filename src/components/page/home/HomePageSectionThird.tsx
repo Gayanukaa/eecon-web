@@ -101,22 +101,6 @@ export default function HomePageSectionThird() {
       <div className="flex  flex-row w-full sm:w-3/4 w-max-1/2 pl-8 mt-4 text-left justify-content: space-between">
         <div className="basis-1/2">
           <p className="text-sm sm:text-base ml-8 sm:ml-16 ">
-            IEEE Industrial Electronics Society <br />
-            Sri Lanka
-          </p>
-        </div>
-        <div className="flex  ml-16  basis-1/2 justify-end items-center float-right ">
-          <Image
-            // style={{ width: 75, height: 75 }}
-            src={IESLOGO}
-            alt=" IEEE Industrial Electronics Society, Sri Lanka"
-            className="w-16"
-          ></Image>
-        </div>
-      </div>
-      <div className="flex  flex-row w-full sm:w-3/4 w-max-1/2 pl-8 mt-4 text-left justify-content: space-between">
-        <div className="basis-1/2">
-          <p className="text-sm sm:text-base ml-8 sm:ml-16 ">
             IEEE Robotics and Automation Society <br />
             Sri Lanka
           </p>
