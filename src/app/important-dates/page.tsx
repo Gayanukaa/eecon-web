@@ -46,7 +46,7 @@ export default function page() {
                                 Paper Submission Deadline
                             </p>
                             <p className="text-gray-400 italic">
-                                01<sup> st</sup> July 2024
+                                31<sup> st</sup> July 2024
                             </p>
                         </div>
                     </div>
