@@ -47,7 +47,7 @@ export default function Home() {
                     <div className="basis-1/2 p-4 pt-0 md:pt-4">
                         <EventCard
                             title={"PAPER SUBMISSION DEADLINE"}
-                            date={"01"}
+                            date={"31"}
                             month={"July"}
                             subtitle={"Paper submission deadline"}
                         ></EventCard>
