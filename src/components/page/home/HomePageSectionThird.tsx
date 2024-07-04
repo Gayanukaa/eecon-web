@@ -1,3 +1,4 @@
+import EELOGO from "../../../assets/logos/ee_logo.png";
 import EESOCLOGO from "../../../assets/logos/eesoc_logo.png";
 import UOMLOGO from "../../../assets/logos/uom_logo.jpg";
 import IESLOGO from "../../../assets/logos/ies_logo.png";
@@ -21,7 +22,14 @@ export default function HomePageSectionThird() {
         </div>
         <div className="flex ml-16 basis-1/3 lg:basis-1/2  justify-end items-center float-right ">
           <Image
-            // style={{ width: 75, height: 75 }}
+            style={{ width: 50, height: 50 }}
+            src={EELOGO}
+            alt="EESoc University of Moratuwa, Sri Lanka"
+            className="w-16"
+          ></Image>
+          <div style={{ width: 20 }}></div>
+          <Image
+            style={{ width: 50, height: 50 }}
             src={EESOCLOGO}
             alt="EESoc University of Moratuwa, Sri Lanka"
             className="w-16"
