@@ -22,7 +22,7 @@ export default function HomePageSectionThird() {
         </div>
         <div className="flex ml-16 basis-1/3 lg:basis-1/2  justify-end items-center float-right ">
           <Image
-            style={{ width: 50, height: 50 }}
+            style={{ width: 60, height: 60 }}
             src={EELOGO}
             alt="EESoc University of Moratuwa, Sri Lanka"
             className="w-16"
