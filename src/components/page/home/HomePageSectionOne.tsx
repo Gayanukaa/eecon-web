@@ -124,7 +124,7 @@ function HomePageSectionOne() {
                             Scope
                         </h2>
                         <p className="text-gray-700 italic text-sm">
-                            EECon 2021 solicits research papers describing
+                            EECon 2024 solicits research papers describing
                             significant and innovative research contributions to
                             all fields of electrical engineering. We invite
                             submissions on a wide range of research topics in
