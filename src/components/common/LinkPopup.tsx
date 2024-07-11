@@ -68,7 +68,9 @@ export default function LinkPopup({
                                     <div className="divide-y divide-blue-200">
                                         <div className="pb-4 mb-2 border-t-2 border-blue-950"></div>
                                         <Image
-                                            src={"/flyers/flyer_v3.jpg"}
+                                            src={
+                                                "/flyers/call_for_papers_flyer.jpg"
+                                            }
                                             // src="https://i.ibb.co/rFLdgzG/pexels-alessandro-simonetto-1474937.png"
                                             alt="EECon Call For Papers"
                                             width={600}
