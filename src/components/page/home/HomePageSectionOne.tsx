@@ -74,7 +74,7 @@ function HomePageSectionOne() {
                             <p className="text-black pt-3 pl-8">
                                 - Submit before{" "}
                                 <span className="font-bold">
-                                    31 <sup>st</sup> July 2024
+                                    8 <sup>th</sup> August 2024
                                 </span>
                             </p>
                             <div className="divide-y-0"></div>
