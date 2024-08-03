@@ -28,12 +28,12 @@ export default function Speakers() {
             </div> */}
             <HeaderCard text={"Keynote Speakers"}></HeaderCard>
             <div className="flex md:flex-row flex-col">
-                <div className="basis-1/2 p-8 flex flex-col  justify-center items-center">
+                {/* <div className="basis-1/2 p-8 flex flex-col  justify-center items-center">
                     <div className="bg-gray-200 w-max p-3 rounded">
                         <Image src={IMG_PECHT} alt="Keynote Speaker "></Image>
                     </div>
                     <ComingSoonTile></ComingSoonTile>
-                </div>
+                </div> */}
                 <div className=" basis-1/2 p-8 flex flex-col justify-center items-center">
                     <div className="bg-gray-200 w-max p-3 rounded">
                         <Image src={IMG_JSON} alt="Keynote Speaker "></Image>
