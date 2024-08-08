@@ -11,15 +11,15 @@ export default function HomePageSectionFour() {
       </h2>
       <div className="h-10"></div>
       <div className="flex flex-col items-center">
-        <div className="w-1/3 h-1/3 shadow-md rounded-lg overflow-hidden mb-4">
+        <div className="w-full h-full md:w-1/3 h-1/3 shadow-md rounded-lg overflow-hidden mb-4">
           <Image src={DEADLINEFLYER} alt="Deadline Flyer" layout="responsive" />
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center w-full">
-          <div className="w-1/3 h-1/3 shadow-md rounded-lg overflow-hidden mb-4 md:mb-0">
+          <div className="w-full h-full md:w-1/3 h-64 shadow-md rounded-lg overflow-hidden mb-4 md:mb-0">
             <Image src={PAPERFLYER} alt="Paper Flyer" layout="responsive" />
           </div>
           <div className="w-20 md:w-10"></div>
-          <div className="w-1/3 h-1/3 shadow-md rounded-lg overflow-hidden">
+          <div className="w-full h-full md:w-1/3 h-64 shadow-md rounded-lg overflow-hidden">
             <Image
               src={WORKSHOPFLYER}
               alt="Workshop Flyer"
