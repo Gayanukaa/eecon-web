@@ -106,7 +106,7 @@ export default function page() {
                                 Conference Date
                             </p>
                             <p className="text-gray-400 italic">
-                                12<sup> th</sup> December 2024
+                                13<sup> th</sup> December 2024
                             </p>
                         </div>
                     </div>
