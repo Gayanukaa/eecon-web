@@ -25,7 +25,7 @@ export default function HomePageSectionZero() {
                     International Conference on Electrical Engineering 2024
                 </p>
                 <p className="text-base text-md italic mb-2">
-                    13<sup>th</sup> Thursday, December 2024 @ Colombo, Sri Lanka
+                    12<sup>th</sup> Thursday, December 2024 @ Colombo, Sri Lanka
                 </p>
                 <Button href="/author-instructions">Register Now</Button>
             </div>

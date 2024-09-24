@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     ],
     openGraph: {
         description:
-            "The 4th International Conference on Electrical Engineering (EECon2024) will be held on Thursday, December 13th, 2024 in Colombo, Sri Lanka. Organized by the Department of Electrical Engineering with EESoc, University of Moratuwa.",
+            "The 4th International Conference on Electrical Engineering (EECon2024) will be held on Thursday, December 12th, 2024 in Colombo, Sri Lanka. Organized by the Department of Electrical Engineering with EESoc, University of Moratuwa.",
         images: "https://eecon2024.eesoc.lk/logo.png",
 
         url: "https://eecon2024.eesoc.lk",
