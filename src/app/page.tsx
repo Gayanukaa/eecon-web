@@ -61,7 +61,7 @@ export default function Home() {
               ></EventCard>
               <EventCard
                 title={"CONFERENCE"}
-                date={"13"}
+                date={"12"}
                 month={"December"}
                 subtitle={"The conference Date."}
               ></EventCard>
