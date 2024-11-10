@@ -76,7 +76,7 @@ export default function page() {
                                 Camera Ready Paper Submission
                             </p>
                             <p className="text-gray-400 italic">
-                                15<sup> th</sup> November 2024
+                                25<sup> th</sup> November 2024
                             </p>
                         </div>
                     </div>

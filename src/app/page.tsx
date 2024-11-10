@@ -55,7 +55,7 @@ export default function Home() {
               ></EventCard>
               <EventCard
                 title={"CAMERA READY PAPER SUBMISSION"}
-                date={"15"}
+                date={"25"}
                 month={"November"}
                 subtitle={"Camera ready paper submission date."}
               ></EventCard>
