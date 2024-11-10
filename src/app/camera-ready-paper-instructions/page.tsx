@@ -1,8 +1,9 @@
+import Button from "@/components/common/Button";
+import HeaderCard from "@/components/common/HeaderCard";
+import Link from "next/link";
+import Image from "next/image";
 import IMG_SLIDE1 from "@/assets/slides/camera_paper_instruction_slide1.png";
 import IMG_SLIDE2 from "@/assets/slides/camera_paper_instruction_slide2.png";
-import HeaderCard from "@/components/common/HeaderCard";
-import Image from "next/image";
-import Link from "next/link";
 
 export default function CameraReadyInstructions() {
   return (
@@ -162,7 +163,7 @@ export default function CameraReadyInstructions() {
             Please transfer copyright through IEEE Electronic Copyright Form
             (eCF) using{" "}
             <b>Microsoft CMT when submitting Camera Ready Papers.</b> IEEE eCF
-            site can be accessed by clicking as shown in figures below.
+            site can be accessed by clicking as show in figures bellow.
           </li>
           <div className="w-max p-3 rounded">
             <Image src={IMG_SLIDE2} alt="Copyright Transfer"></Image>
