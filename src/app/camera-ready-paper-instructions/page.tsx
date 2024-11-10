@@ -1,9 +1,8 @@
-import Button from "@/components/common/Button";
-import HeaderCard from "@/components/common/HeaderCard";
-import Link from "next/link";
-import Image from "next/image";
 import IMG_SLIDE1 from "@/assets/slides/camera_paper_instruction_slide1.png";
 import IMG_SLIDE2 from "@/assets/slides/camera_paper_instruction_slide2.png";
+import HeaderCard from "@/components/common/HeaderCard";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function CameraReadyInstructions() {
   return (
@@ -134,7 +133,7 @@ export default function CameraReadyInstructions() {
             </Link>{" "}
             and create an account:
             <ol className="pl-10 sm:pl-16 list-decimal">
-              <li>Select "New Users"</li>
+              <li>Select &quot;New Users&quot;</li>
               <li>Enter the following details:</li>
               <ul className="pl-10 sm:pl-16 list-disc">
                 <li>64470X for the conference ID</li>
