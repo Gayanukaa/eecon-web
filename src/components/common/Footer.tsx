@@ -29,6 +29,7 @@ export default function Footer() {
                         <div className="flex flex-col ml-8 md:ml-0">
                             <Link href={"/program"}>Program Schedule</Link>
                             <Link href={"/registration"}>Registration</Link>
+                            <Link href={"/camera-ready-paper-instructions"}>Camera Ready Paper Instructions</Link>
                             <Link href={"/contact"}>Contact</Link>
                         </div>
                     </div>
