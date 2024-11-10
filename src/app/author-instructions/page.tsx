@@ -1,8 +1,5 @@
 import Button from "@/components/common/Button";
-import ComingSoon from "@/components/common/ComingSoon";
 import HeaderCard from "@/components/common/HeaderCard";
-import HeaderImageCard from "@/components/common/HeaderImageCard";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Registration() {
