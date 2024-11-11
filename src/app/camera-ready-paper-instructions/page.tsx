@@ -89,8 +89,14 @@ export default function CameraReadyInstructions() {
             left-hand corner of the first page in the IEEE template. Shown in
             figure below.
           </li>
-          <div className="w-max p-3">
-            <Image src={IMG_SLIDE1} alt="Remove the copyright stamp"></Image>
+          <div className="w-full sm:w-3/4 p-3 mx-auto">
+            <Image
+              src={IMG_SLIDE1}
+              alt="Remove the copyright stamp"
+              layout="responsive"
+              objectFit="contain"
+              className="rounded-md"
+            />
           </div>
           <li>
             Make sure the images, graphs and tables are clear and text is
@@ -164,8 +170,14 @@ export default function CameraReadyInstructions() {
             <b>Microsoft CMT when submitting Camera Ready Papers.</b> IEEE eCF
             site can be accessed by clicking as show in figures bellow.
           </li>
-          <div className="w-max p-3 rounded">
-            <Image src={IMG_SLIDE2} alt="Copyright Transfer"></Image>
+          <div className="w-full sm:w-3/4 p-3 mx-auto">
+            <Image
+              src={IMG_SLIDE2}
+              alt="Copyright Transfer"
+              layout="responsive"
+              objectFit="contain"
+              className="rounded-md"
+            />
           </div>
         </ul>
       </div>
