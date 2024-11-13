@@ -6,6 +6,11 @@ import PESLOGO from "../../../assets/logos/pes_logo.png";
 import IEEEGLOBALLOGO from "../../../assets/logos/ieee_global_logo.png";
 import IEEELOGO from "../../../assets/logos/ieee_logo.webp";
 import RASLOGO from "../../../assets/logos/ras_logo.png";
+import LTLLOGO from "../../../assets/logos/ltl_logo.png";
+import WINDFLOGO from "../../../assets/logos/windforce_logo.png";
+import HNBLOGO from "../../../assets/logos/hnb_logo.png";
+import VIBHAWALOGO from "../../../assets/logos/vibhawa_logo.png";
+import VIDULOGO from "../../../assets/logos/vidulanka_logo.png";
 import Image from "next/image";
 
 export default function HomePageSectionThird() {
@@ -52,6 +57,107 @@ export default function HomePageSectionThird() {
             // style={{ width: 75, height: 75 }}
             src={UOMLOGO}
             alt="EESoc University of Moratuwa, Sri Lanka"
+            className="w-16"
+          ></Image>
+        </div>
+      </div>
+      <div className="flex  flex-row w-full sm:w-3/4 w-max-1/2 pl-8 mt-4 text-left justify-content: space-between">
+        <div className="basis-1/2">
+          <h5 className="text-lg sm:text-xl text-transform:uppercase cap font-medium ml-8 sm:ml-16">
+            Platinum Partner
+            <br></br>
+          </h5>
+          <p className="text-sm sm:text-base ml-8 sm:ml-16 ">
+            LTL Holdings Limited
+            <br />
+            Sri Lanka
+          </p>
+        </div>
+        <div className="flex  ml-16  basis-1/2 justify-end items-center float-right ">
+          <Image
+            style={{ width: 120, height: 85 }}
+            src={LTLLOGO}
+            alt="LTL Holdings Limited"
+            className="w-16"
+          ></Image>
+        </div>
+      </div>
+      <div className="flex  flex-row w-full sm:w-3/4 w-max-1/2 pl-8 mt-4 text-left justify-content: space-between">
+        <div className="basis-1/2">
+          <h5 className="text-lg sm:text-xl text-transform:uppercase cap font-medium ml-8 sm:ml-16">
+            Gold Partner
+            <br></br>
+          </h5>
+          <p className="text-sm sm:text-base ml-8 sm:ml-16 ">
+            WindForce PLC
+            <br />
+            Sri Lanka
+          </p>
+        </div>
+        <div className="flex  ml-16  basis-1/2 justify-end items-center float-right ">
+          <Image
+            //style={{ width: 75, height: 75 }}
+            src={WINDFLOGO}
+            alt="WindForce PLC"
+            className="w-16"
+          ></Image>
+        </div>
+      </div>
+      <div className="flex  flex-row w-full sm:w-3/4 w-max-1/2 pl-8 mt-4 text-left justify-content: space-between">
+        <div className="basis-1/2">
+          <p className="text-sm sm:text-base ml-8 sm:ml-16 ">
+            Vidullanka PLC
+            <br />
+            Sri Lanka
+          </p>
+        </div>
+        <div className="flex  ml-16  basis-1/2 justify-end items-center float-right ">
+          <Image
+            style={{ width: 100, height: 31 }}
+            src={VIDULOGO}
+            alt="Vidullanka PLC"
+            className="w-16"
+          ></Image>
+        </div>
+      </div>
+      <div className="flex  flex-row w-full sm:w-3/4 w-max-1/2 pl-8 mt-4 text-left justify-content: space-between">
+        <div className="basis-1/2">
+          <h5 className="text-lg sm:text-xl text-transform:uppercase cap font-medium ml-8 sm:ml-16">
+            Banking Partner
+            <br></br>
+          </h5>
+          <p className="text-sm sm:text-base ml-8 sm:ml-16 ">
+            Hatton National Bank PLC
+            <br />
+            Sri Lanka
+          </p>
+        </div>
+        <div className="flex  ml-16  basis-1/2 justify-end items-center float-right ">
+          <Image
+            //style={{ width: 75, height: 75 }}
+            src={HNBLOGO}
+            alt="Hatton National Bank PLC"
+            className="w-16"
+          ></Image>
+        </div>
+      </div>
+      <div className="flex  flex-row w-full sm:w-3/4 w-max-1/2 pl-8 mt-4 text-left justify-content: space-between">
+        <div className="basis-1/2">
+          <h5 className="text-lg sm:text-xl text-transform:uppercase cap font-medium ml-8 sm:ml-16">
+            Bronze Partner
+            <br></br>
+          </h5>
+          <p className="text-sm sm:text-base ml-8 sm:ml-16 ">
+            Vibhawa Consultants
+            <br />
+            Sri Lanka
+          </p>
+        </div>
+        <div className="flex  ml-16  basis-1/2 justify-end items-center float-right ">
+          <Image
+            //style={{ width: 75, height: 75 }}
+            src={VIBHAWALOGO}
+            alt="Vibhawa Consultants"
             className="w-16"
           ></Image>
         </div>
