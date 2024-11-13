@@ -23,7 +23,7 @@ export default function Registration() {
       <HeaderCard text={"Attendee Registration Guidelines"} />
       <div className="pl-6 sm:pl-12 sm:w-4/5 w-full my-4 py-2 pr-4">
         <p>
-          EECon 2024 will be held at the
+          EECon 2024 will be held at the{" "}
           <Link
             className="text-red-600"
             href={"https://maps.app.goo.gl/51qR3gK8GdFDQ2K17?g_st=ic"}
@@ -120,61 +120,61 @@ export default function Registration() {
         </h3>
 
         <div className="overflow-x-auto">
-        <table className="w-full text-left border-collapse border border-gray-400 mb-6">
-          <thead>
-            <tr className="bg-red-100">
-              <th
-                className="border border-gray-400 px-4 py-2"
-                colSpan={1}
-                rowSpan={2}
-              >
-                Onsite Registration Fees
-              </th>
-              <th className="border border-gray-400 px-4 py-2" colSpan={2}>
-                Local
-              </th>
-              <th className="border border-gray-400 px-4 py-2" colSpan={2}>
-                Foreign
-              </th>
-            </tr>
-            <tr className="bg-red-100">
-              <th className="border border-gray-400 px-4 py-2">IEEE</th>
-              <th className="border border-gray-400 px-4 py-2">Non IEEE</th>
-              <th className="border border-gray-400 px-4 py-2">IEEE</th>
-              <th className="border border-gray-400 px-4 py-2">Non IEEE</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className="border border-gray-400 px-4 py-2">Students</td>
-              <td className="border border-gray-400 px-4 py-2">LKR 17500</td>
-              <td className="border border-gray-400 px-4 py-2">LKR 20000</td>
-              <td className="border border-gray-400 px-4 py-2">USD 200</td>
-              <td className="border border-gray-400 px-4 py-2">USD 250</td>
-            </tr>
-            <tr>
-              <td className="border border-gray-400 px-4 py-2">
-                Working Professionals
-              </td>
-              <td className="border border-gray-400 px-4 py-2">LKR 27500</td>
-              <td className="border border-gray-400 px-4 py-2">LKR 32500</td>
-              <td className="border border-gray-400 px-4 py-2">USD 200</td>
-              <td className="border border-gray-400 px-4 py-2">USD 250</td>
-            </tr>
-            <tr>
-              <td className="border border-gray-400 px-4 py-2">
-                Non-presenting authors and other participants
-              </td>
-              <td className="border border-gray-400 px-4 py-2" colSpan={2}>
-                LKR 5000
-              </td>
-              <td className="border border-gray-400 px-4 py-2" colSpan={2}>
-                USD 100
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+          <table className="w-full text-left border-collapse border border-gray-400 mb-6">
+            <thead>
+              <tr className="bg-red-100">
+                <th
+                  className="border border-gray-400 px-4 py-2"
+                  colSpan={1}
+                  rowSpan={2}
+                >
+                  Onsite Registration Fees
+                </th>
+                <th className="border border-gray-400 px-4 py-2" colSpan={2}>
+                  Local
+                </th>
+                <th className="border border-gray-400 px-4 py-2" colSpan={2}>
+                  Foreign
+                </th>
+              </tr>
+              <tr className="bg-red-100">
+                <th className="border border-gray-400 px-4 py-2">IEEE</th>
+                <th className="border border-gray-400 px-4 py-2">Non IEEE</th>
+                <th className="border border-gray-400 px-4 py-2">IEEE</th>
+                <th className="border border-gray-400 px-4 py-2">Non IEEE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">Students</td>
+                <td className="border border-gray-400 px-4 py-2">LKR 17500</td>
+                <td className="border border-gray-400 px-4 py-2">LKR 20000</td>
+                <td className="border border-gray-400 px-4 py-2">USD 200</td>
+                <td className="border border-gray-400 px-4 py-2">USD 250</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">
+                  Working Professionals
+                </td>
+                <td className="border border-gray-400 px-4 py-2">LKR 27500</td>
+                <td className="border border-gray-400 px-4 py-2">LKR 32500</td>
+                <td className="border border-gray-400 px-4 py-2">USD 200</td>
+                <td className="border border-gray-400 px-4 py-2">USD 250</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 px-4 py-2">
+                  Non-presenting authors and other participants
+                </td>
+                <td className="border border-gray-400 px-4 py-2" colSpan={2}>
+                  LKR 5000
+                </td>
+                <td className="border border-gray-400 px-4 py-2" colSpan={2}>
+                  USD 100
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
       <h2 className="font-semibold text-xl ml-6 sm:ml-12 mt-4 uppercase">
         Registration Procedure
