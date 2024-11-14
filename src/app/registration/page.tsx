@@ -212,7 +212,7 @@ export default function Registration() {
         </ul>
         <h3 className="font-semibold text-lg mb-2">
           Participants Registration and Payment Deadline: 5<sup>th</sup>{" "}
-          November 2024
+          December 2024
         </h3>
         <ul className="list-disc pl-6 my-2">
           <li>
