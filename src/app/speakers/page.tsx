@@ -34,9 +34,10 @@ export default function Speakers() {
             ></Image>
           </div>
           <div className="text-center mt-4">
-            <h2 className="text-xl font-semibold">Prof. Jason Mars</h2>
+            <h2 className="text-xl font-semibold">Dr. Priyantha Wijayatunga</h2>
             <p>
-              Dr. Priyantha Wijayatunga, Senior Director, <br />
+              Senior Director
+              <br />
               Energy Sector Office, Asian Development Bank
             </p>
           </div>
@@ -53,7 +54,8 @@ export default function Speakers() {
           <div className="text-center mt-4">
             <h2 className="text-xl font-semibold">Prof. Jason Mars</h2>
             <p>
-              Professor, Electrical Engineering and Computer Science, <br />
+              Professor, Electrical Engineering and Computer Science
+              <br />
               College of Engineering, University of Michigan, USA
             </p>
           </div>
