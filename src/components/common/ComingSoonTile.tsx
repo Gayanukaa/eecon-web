@@ -24,7 +24,7 @@ function ComingSoonTile() {
                     <p className="font-bold text-medium">{"Coming Soon..."}</p>
 
                     <p className="text-gray-400 italic">
-                        {"Keynote Speakers will be updated soon.."}
+                        {"Keynote Topics will be updated soon.."}
                     </p>
                 </div>
             </div>
