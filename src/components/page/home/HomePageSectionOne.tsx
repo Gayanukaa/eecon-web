@@ -42,6 +42,23 @@ function HomePageSectionOne() {
           <div className="divide-y overflow-scroll scrollbar-track-red scrollbar-thumb-red">
             {/* Notice - 01 */}
             <div className="p-4 sm:p-4 pl-6 ">
+              <h6 className="text-red-500">25th, November 2024</h6>
+              <p className="text-black pt-3 pl-4">
+                Authors of accepted papers are kindly reminded to submit their
+                camera-ready versions by 25th November 2024. Please follow the
+                formatting guidelines and instructions provided{" "}
+                <Link
+                  className="text-red-600"
+                  href={"/camera-ready-paper-instructions"}
+                >
+                  here.
+                </Link>
+              </p>
+              <div className="divide-y-0"></div>
+            </div>
+
+            {/* Notice - 02 */}
+            <div className="p-4 sm:p-4 pl-6 ">
               <h6 className="text-red-500">29th, May 2024</h6>
               <p className="text-black pt-3 pl-4">
                 As EECon 2024 organizing committee, we invite{" "}
@@ -56,7 +73,7 @@ function HomePageSectionOne() {
               <div className="divide-y-0"></div>
             </div>
 
-            {/* Notice - 02 */}
+            {/* Notice - 03 */}
             <div className="p-4 sm:p-4 pl-6 ">
               <h6 className="text-red-500">28th, March 2024</h6>
               <p className="text-black pt-3 pl-4">
@@ -83,7 +100,7 @@ function HomePageSectionOne() {
               <div className="divide-y-0"></div>
             </div>
 
-            {/* Notice - 03 */}
+            {/* Notice - 04 */}
             <div className="p-4 sm:p-4 pl-6 ">
               <h6 className="text-red-500">26th, March 2024</h6>
               <p className="text-black pt-3 pl-4">
