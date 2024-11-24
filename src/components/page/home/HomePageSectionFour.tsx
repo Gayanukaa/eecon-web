@@ -1,6 +1,7 @@
 import PAPERFLYER from "../../../assets/flyers/call_for_papers_flyer.png";
 import WORKSHOPFLYER from "../../../assets/flyers/workshop_flyer.png";
 import DEADLINEFLYER from "../../../assets/flyers/deadline_extended_flyer.png";
+import EVENTFLYER from "../../../assets/flyers/event_flyer.jpg";
 import Image from "next/image";
 
 export default function HomePageSectionFour() {
@@ -11,7 +12,10 @@ export default function HomePageSectionFour() {
       </h2>
       <div className="h-10"></div>
       <div className="flex flex-col items-center">
-        <div className="w-full h-full md:w-1/3 h-1/3 shadow-md rounded-lg overflow-hidden mb-4">
+        <div className="w-full h-full md:w-1/3 h-1/3 shadow-md rounded-lg overflow-hidden mb-4 px-4 md:px-0">
+          <Image src={EVENTFLYER} alt="Deadline Flyer" layout="responsive" />
+        </div>
+        {/* <div className="w-full h-full md:w-1/3 h-1/3 shadow-md rounded-lg overflow-hidden mb-4">
           <Image src={DEADLINEFLYER} alt="Deadline Flyer" layout="responsive" />
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center w-full">
@@ -26,7 +30,7 @@ export default function HomePageSectionFour() {
               layout="responsive"
             />
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="h-10"></div>
     </div>
