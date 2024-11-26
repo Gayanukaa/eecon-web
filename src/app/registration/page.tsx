@@ -103,7 +103,7 @@ export default function Registration() {
                   Non-presenting authors and other participants
                 </td>
                 <td className="border border-gray-400 px-4 py-2" colSpan={2}>
-                  LKR 15000
+                  LKR 5000
                 </td>
                 <td className="border border-gray-400 px-4 py-2" colSpan={2}>
                   USD 100
@@ -166,7 +166,7 @@ export default function Registration() {
                   Non-presenting authors and other participants
                 </td>
                 <td className="border border-gray-400 px-4 py-2" colSpan={2}>
-                  LKR 5000
+                  LKR 15000
                 </td>
                 <td className="border border-gray-400 px-4 py-2" colSpan={2}>
                   USD 100
