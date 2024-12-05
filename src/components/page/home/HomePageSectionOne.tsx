@@ -1,7 +1,4 @@
-// import LinkPopup from "@/components/common/LinkPopup" ;
-
 import Button from "@/components/common/Button";
-import { kStringMaxLength } from "buffer";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import Countdown from "@/components/common/Countdown";
@@ -29,19 +26,30 @@ const DynamicModal = dynamic(() => import("@/components/common/LinkPopup"), {
 
 function HomePageSectionOne() {
   return (
-    <div className="p-8 pt-16 bg-gray-100  ">
+    <div className="p-8 pt-16 bg-gray-100">
       <div>
-        <Countdown></Countdown>
+        <Countdown />
       </div>
       <br />
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 ">
-        <div className="col-span-1 bg-white p-4 sm:p-6 h-100 drop-shadow-lg  ">
-          <h2 className="text-xl text-black font-semibold mb-2 text-transform: uppercase ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="col-span-1 bg-white p-4 sm:p-6 h-100 drop-shadow-lg">
+          <h2 className="text-xl text-black font-semibold mb-2 uppercase">
             Notice Board
           </h2>
-          <div className="divide-y overflow-scroll scrollbar-track-red scrollbar-thumb-red">
+          <div className="divide-y overflow-hidden">
             {/* Notice - 01 */}
-            <div className="p-4 sm:p-4 pl-6 ">
+            <div className="p-4 sm:p-4 pl-6">
+              <h6 className="text-red-500">5th, December 2024</h6>
+              <p className="text-black pt-3 pl-4">
+                Keynotes speeches have been updated{" "}
+                <Link className="text-red-600" href={"/speakers"}>
+                  here.
+                </Link>
+              </p>
+              <div className="divide-y-0"></div>
+            </div>
+            {/* Notice - 02 */}
+            <div className="p-4 sm:p-4 pl-6">
               <h6 className="text-red-500">25th, November 2024</h6>
               <p className="text-black pt-3 pl-4">
                 Authors of accepted papers are kindly reminded to submit their
@@ -57,8 +65,8 @@ function HomePageSectionOne() {
               <div className="divide-y-0"></div>
             </div>
 
-            {/* Notice - 02 */}
-            <div className="p-4 sm:p-4 pl-6 ">
+            {/* Notice - 03 */}
+            <div className="p-4 sm:p-4 pl-6">
               <h6 className="text-red-500">29th, May 2024</h6>
               <p className="text-black pt-3 pl-4">
                 As EECon 2024 organizing committee, we invite{" "}
@@ -73,14 +81,14 @@ function HomePageSectionOne() {
               <div className="divide-y-0"></div>
             </div>
 
-            {/* Notice - 03 */}
-            <div className="p-4 sm:p-4 pl-6 ">
+            {/* Notice - 04 */}
+            <div className="p-4 sm:p-4 pl-6">
               <h6 className="text-red-500">28th, March 2024</h6>
               <p className="text-black pt-3 pl-4">
                 <span className="font-bold">Call For Papers </span>- We invite
                 submissions on a wide range of research topics in Electrical
                 Engineering.{" "}
-                <DynamicModal title="EECon-2024 - Call For Papers"></DynamicModal>
+                <DynamicModal title="EECon-2024 - Call For Papers" />
               </p>
               <p className="text-black pt-3 pl-8">
                 - Submission starting at{" "}
@@ -100,8 +108,8 @@ function HomePageSectionOne() {
               <div className="divide-y-0"></div>
             </div>
 
-            {/* Notice - 04 */}
-            <div className="p-4 sm:p-4 pl-6 ">
+            {/* Notice - 05 */}
+            <div className="p-4 sm:p-4 pl-6">
               <h6 className="text-red-500">26th, March 2024</h6>
               <p className="text-black pt-3 pl-4">
                 The Department of Electrical Engineering at the University of
@@ -114,9 +122,9 @@ function HomePageSectionOne() {
           </div>
         </div>
 
-        <div className="col-span-1 bg-white p-6 h-100 drop-shadow-lg ">
-          <div className="max-h-screen overflow-scroll scrollbar-track-red scrollbar-thumb-red">
-            <h2 className="text-xl text-black font-semibold mb-2 text-transform: uppercase ">
+        <div className="col-span-1 bg-white p-6 h-100 drop-shadow-lg">
+          <div className="max-h-screen overflow-hidden">
+            <h2 className="text-xl text-black font-semibold mb-2 uppercase">
               Vision
             </h2>
             <p className="text-gray-700 italic text-sm">
@@ -124,7 +132,7 @@ function HomePageSectionOne() {
               in different Engineering disciplines for the betterment of fields
               of Electrical Engineering.
             </p>
-            <h2 className="mt-8 text-xl text-black font-semibold mb-2 text-transform: uppercase ">
+            <h2 className="mt-8 text-xl text-black font-semibold mb-2 uppercase">
               Mission
             </h2>
             <p className="text-gray-700 italic text-sm">
@@ -136,7 +144,7 @@ function HomePageSectionOne() {
               and environmentally sustainable for the betterment of fields of
               Electrical Engineering.
             </p>
-            <h2 className="mt-8 text-xl text-black font-semibold mb-2 text-transform: uppercase ">
+            <h2 className="mt-8 text-xl text-black font-semibold mb-2 uppercase">
               Scope
             </h2>
             <p className="text-gray-700 italic text-sm">
@@ -146,7 +154,7 @@ function HomePageSectionOne() {
               topics in Electrical Engineering. Topics of interest include, but
               are not limited to,
             </p>
-            <ul className="list-disc pl-5 text-black overflow-scroll text-sm">
+            <ul className="list-disc pl-5 text-black text-sm">
               <li className="mb-2 flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
