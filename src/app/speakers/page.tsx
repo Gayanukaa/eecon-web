@@ -46,26 +46,26 @@ export default function Speakers() {
         <div className="basis-1/2 p-4">
           <div className="mt-4 p-4 bg-white shadow-lg rounded">
             <p style={{ fontSize: "16px" }}>
-              Priyantha has over 35 years of professional experience including
-              almost 17 years in ADB. He was the Director, South Asia Energy
-              Division and Chief of Energy Sector Group prior to assuming the
-              current position. Before joining ADB, he served as the founder
-              Director General of the Public Utilities Commission of Sri Lanka,
-              a Senior Professor of Electrical Engineering at the University of
-              Moratuwa and its founder Dean, of the Faculty of Information
-              Technology. He was also a member of the Board of Directors of the
-              Ceylon Electricity Board and Sri Lanka Sustainable Energy
-              Authority and Advisory Board, Melbourne Energy Institute. He has
-              extensively contributed in the areas of energy policy and
-              regulation, energy planning and clean energy development. He has
-              published over 100 research publications, books in these areas.
-              Priyantha, a Fellow of the Institution of Engineers Sri Lanka,
-              holds a Doctorate in Power Systems Economics from the Imperial
-              College London on Beit Scientific Research Fellowship. He served
-              as an Academic Visitor at Imperial College and Chairman, South
-              Asia Forum for Infrastructure Regulators. He is a Chartered
-              Electrical Engineer, a Member of IET and Senior Member of IEEE. He
-              is a Past President of SLEMA.
+              Dr. Priyantha Wijayatunga has over 35 years of professional
+              experience including almost 17 years in ADB. He was the Director,
+              South Asia Energy Division and Chief of Energy Sector Group prior
+              to assuming the current position. Before joining ADB, he served as
+              the founder Director General of the Public Utilities Commission of
+              Sri Lanka, a Senior Professor of Electrical Engineering at the
+              University of Moratuwa and its founder Dean, of the Faculty of
+              Information Technology. He was also a member of the Board of
+              Directors of the Ceylon Electricity Board and Sri Lanka
+              Sustainable Energy Authority and Advisory Board, Melbourne Energy
+              Institute. He has extensively contributed in the areas of energy
+              policy and regulation, energy planning and clean energy
+              development. He has published over 100 research publications,
+              books in these areas. Priyantha, a Fellow of the Institution of
+              Engineers Sri Lanka, holds a Doctorate in Power Systems Economics
+              from the Imperial College London on Beit Scientific Research
+              Fellowship. He served as an Academic Visitor at Imperial College
+              and Chairman, South Asia Forum for Infrastructure Regulators. He
+              is a Chartered Electrical Engineer, a Member of IET and Senior
+              Member of IEEE. He is a Past President of SLEMA.
             </p>
           </div>
         </div>
@@ -94,9 +94,9 @@ export default function Speakers() {
         <div className="basis-1/2 p-4">
           <div className="mt-4 p-4 bg-white shadow-lg rounded">
             <p style={{ fontSize: "16px" }}>
-              Jason Mars is a professor of computer science at University of
-              Michigan, and CEO of Jaseci Labs, LLC. Jason Mars’ body of work is
-              at the nexus of science, technology, and entrepreneurship. As a
+              Prof. Jason Mars is a professor of computer science at University
+              of Michigan, and CEO of Jaseci Labs, LLC. Jason Mars’ body of work
+              is at the nexus of science, technology, and entrepreneurship. As a
               computer science professor at the University of Michigan, he helms
               the Jaseci Research Group, a leading research lab specializing in
               artificial intelligence, large-scale computing, and programming
