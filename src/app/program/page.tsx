@@ -300,10 +300,10 @@ export default function Program() {
               </tr>
               <tr className="bg-white">
                 <td className="py-2 px-4">12.05 pm – 12.30 pm</td>
-                <td className="py-2 px-4">
+                <td className="py-2 px-4 bg-yellow-200 font-semibold">
                   #17
                 </td>
-                <td className="py-2 px-4">
+                <td className="py-2 px-4 bg-yellow-200 font-semibold">
                   #47
                 </td>
                 <td className="py-2 px-4">
@@ -365,7 +365,7 @@ export default function Program() {
               </tr>
               <tr className="bg-white">
                 <td className="py-2 px-4">2.10 pm – 2.30 pm</td>
-                <td className="py-2 px-4">
+                <td className="py-2 px-4 bg-yellow-200 font-semibold">
                   #46
                 </td>
                 <td className="py-2 px-4">
